@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #fff7f9;
+  color: #333;
+  text-align: center;
+}
+
+/* Lock Screen */
+.lock {
+  height: 100vh;
+  background: linear-gradient(#ffe0ec, #fff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lock input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+.lock button {
+  padding: 10px 20px;
+  border: none;
+  background: #ff5c8a;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* Hero */
+.hero {
+  height: 100vh;
+  background: linear-gradient(#ffd6e8, #fff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero button {
+  padding: 12px 24px;
+  border-radius: 20px;
+  border: none;
+  background: #ff5c8a;
+  color: white;
+  cursor: pointer;
+}
+
+/* Sections */
+.section {
+  padding: 50px 20px;
+}
+
+.section h2 {
+  color: #ff5c8a;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+  .why-love {
+  background: #fff;
+}
+
+.why-love h2 {
+  color: #ff5c8a;
+  margin-bottom: 40px;
+}
+
+.why-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.why-card {
+  background: #fff7f9;
+  padding: 22px 25px;
+  border-radius: 18px;
+  line-height: 1.7;
+  font-size: 0.95rem;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+}
+
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+
+.private-love {
+  background: #fff;
+}
+
+.private-note {
+  font-style: italic;
+  opacity: 0.8;
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
+
+.private-btn {
+  padding: 10px 24px;
+  border-radius: 25px;
+  border: none;
+  background: #ff5c8a;
+  color: white;
+  cursor: pointer;
+}
+
+.love-hidden {
+  display: none;
+  margin-top: 40px;
+}
+
+.love-scroll {
+  max-height: 350px;
+  overflow-y: auto;
+  text-align: left;
+  background: #fff7f9;
+  padding: 25px;
+  border-radius: 20px;
+}
+
+.love-scroll ul {
+  list-style: none;
+  padding: 0;
+}
+
+.love-scroll li {
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.end-line {
+  margin-top: 25px;
+  font-style: italic;
+  opacity: 0.7;
+  text-align: center;
+}
+
+
+/* Buttons */
+.buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  background: #ff8fab;
+  color: white;
+  cursor: pointer;
+}
+
+/* Message box */
+.message-box {
+  margin-top: 30px;
+  padding: 20px;
+  background: white;
+  border-radius: 15px;
+  display: none;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  font-size: 0.9rem;
+}
+
+/* Confetti */
+#confetti {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
