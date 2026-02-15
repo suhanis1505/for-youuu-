@@ -1,4 +1,4 @@
-const correctPassword = "bhondu"; // change this 👀
+const correctPassword = "billu"; // change this 👀
 
 function checkPassword() {
   const input = document.getElementById("passwordInput").value;
@@ -77,3 +77,4 @@ function launchConfetti() {
 function toggleLove() {
   document.getElementById("loveContent").style.display = "block";
 }
+
